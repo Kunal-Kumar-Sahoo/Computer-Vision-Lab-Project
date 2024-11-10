@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 from image_processing import *
 
-st.title("Image Processing Application")
+st.title("Computer Vision Algorithms Demo Application")
 
 # File uploader for image
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "png", "jpeg"])
